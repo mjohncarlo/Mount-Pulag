@@ -14,3 +14,30 @@
             #ffb095 50%,
             #a2e3ff 100%);
 }
+
+.trails {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    padding: 60px 40px;
+}
+
+.trail-pic {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border-radius: 10px;
+}
+
+.trail-pic:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+.info-card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+}
